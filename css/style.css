@@ -988,7 +988,7 @@ a:hover {
 .blog-sidebar {
 	position: fixed;
 	z-index: 1;
-	top: 100px;
+	top: 140px;
 	right: 10px;
 	overflow-x: hidden;
 }

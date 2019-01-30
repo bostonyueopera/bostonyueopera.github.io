@@ -636,11 +636,11 @@ a:hover {
 }
 
 .intro-single {
-  height: 350px;
+  height: 240px;
 }
 
 .intro-single .intro-content {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 .intro-single .intro-title {
@@ -988,7 +988,7 @@ a:hover {
 .blog-sidebar {
 	position: fixed;
 	z-index: 1;
-	top: 100px;
+	top: 140px;
 	right: 10px;
 	overflow-x: hidden;
 }

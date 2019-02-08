@@ -90,7 +90,7 @@
     <div class="container">
       <div class="row">
 <!--
-        <div class="col-md-8" id="20190208">
+        <div class="col-md-12" id="20190208">
           <div class="post-box">
             <div class="post-thumb">
               <img src="img/perform-events.png" class="img-fluid blog-img" alt="">
@@ -117,7 +117,7 @@
         </div>
 -->
 
-        <div class="col-md-8" id="20190202-2">
+        <div class="col-md-12" id="20190202-2">
           <div class="post-box">
             <div class="post-thumb">
               <img src="img/perform-events.png" class="img-fluid blog-img" alt="">
@@ -136,17 +136,17 @@
           </div>
         </div>
 
-        <div class="col-md-4 blog-sidebar">
-					<!-- removed search -->
-          <div class="widget-sidebar">
-            <h5 class="sidebar-title">Past Events</h5>
-            <div class="sidebar-content">
-              <ul class="list-sidebar">
+<!-- hide blog-sidebar -->
 <!--
+        <div class="col-md-4 blog-sidebar">
+          <div class="widget-sidebar">
+            <h5 class="sidebar-title" onclick="openNav()">&#9776; Past Events</h5>
+            <div id="blogSidenav" class="sidebar-content">
+            	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br/><br/>
+              <ul class="list-sidebar">
                 <li>
                   <a href="#20190208">2019.02.08 Chelmsford Chinese School Event</a>
                 </li>
--->
                 <li>
                   <a href="#20190202-2">2019.02.02 Westford Academy Chinese New Year Celebration</a>
                 </li>
@@ -167,15 +167,11 @@
                 </li>
               </ul>
             </div>
-						<!-- end of sidebar-content -->
           </div>
-					<!-- end of widget-sidebar -->
-					<!-- removed archives -->
-					<!-- removed tags -->
         </div>
-				<!-- end of col-md-4 -->
+-->
 
-        <div class="col-md-8" id="20190202-1">
+        <div class="col-md-12" id="20190202-1">
           <div class="post-box">
             <div class="post-thumb">
               <img src="img/perform-events.png" class="img-fluid blog-img" alt="">
@@ -193,7 +189,7 @@
           </div>
         </div>
 
-        <div class="col-md-8" id="20180929">
+        <div class="col-md-12" id="20180929">
           <div class="post-box">
             <div class="post-thumb">
               <img src="img/perform-events.png" class="img-fluid blog-img" alt="">
@@ -209,7 +205,7 @@
           </div>
         </div>
 
-        <div class="col-md-8" id="20180909">
+        <div class="col-md-12" id="20180909">
           <div class="post-box">
             <div class="post-thumb">
               <img src="img/events.png" class="img-fluid blog-img" alt="">
@@ -223,7 +219,7 @@
           </div>
         </div>
 
-        <div class="col-md-8" id="20180615">
+        <div class="col-md-12" id="20180615">
           <div class="post-box">
             <div class="post-thumb">
               <img src="img/perform-events.png" class="img-fluid blog-img" alt="">
@@ -239,7 +235,7 @@
           </div>
         </div>
 
-        <div class="col-md-8" id="20180608">
+        <div class="col-md-12" id="20180608">
           <div class="post-box">
             <div class="post-thumb">
               <img src="img/perform-events.png" class="img-fluid blog-img" alt="">
@@ -296,6 +292,7 @@
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
   <script src="js/includes.js"></script>
+	<script src="js/toggle.js"></script>
   <script>includeHTML();</script>
 </body>
 </html>

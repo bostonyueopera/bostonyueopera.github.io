@@ -1050,6 +1050,22 @@ a:hover {
 
 /*------/ Sidebar /------*/
 
+/* toggle sidebar */
+.sidebar-content {
+  height: 100%;
+  width: 0;
+  position: fixed;
+	background-color:#fff;
+  overflow-x: hidden;
+	transition: 0.3s;
+}
+
+.closebtn {
+  position: absolute;
+  font-size: 36px;
+}
+/* end of toggle sidebar */
+
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;

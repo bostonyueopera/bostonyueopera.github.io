@@ -636,11 +636,11 @@ a:hover {
 }
 
 .intro-single {
-  height: 240px;
+  height: 350px;
 }
 
 .intro-single .intro-content {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .intro-single .intro-title {
@@ -860,31 +860,6 @@ a:hover {
   line-height: 1.6;
 }
 
-
-/* team hover */
-.team-shadow{
-  transition:all 0.3s ease-in-out;
-  -moz-transition:all 0.3s ease-in-out;
-  -webkit-transition:all 0.3s ease-in-out;
-  border-radius:50%;
-  position:absolute;
-	margin-left: 80px;
-  width:51%;
-  height:70%;
-  z-index:10;
-  border-radius:50%;
-}
-.team-shadow a{
-  display:block;
-  width:100%;
-  height:100%;
-}
-.author-test:hover .team-shadow{
-  box-shadow:inset  0px 0px 148px rgba(236,236,236,0.80);
-}
-.author-test:hover url{display:block; opacity:1}
-
-
 /*======================================
 //--//-->   BLOG
 ======================================*/
@@ -985,26 +960,6 @@ a:hover {
   font-style: italic;
 }
 
-.blog-sidebar {
-	position: fixed;
-	z-index: 1;
-	top: 140px;
-	right: 10px;
-	overflow-x: hidden;
-}
-
-/*
-.blog-sidebar {
-  position: fixed;
-  z-index: 1;
-  top: 200px;
-  right: 10px;
-  background: #eee;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-*/
-
 .blog-img {
 	height: 60px;
 }
@@ -1049,23 +1004,6 @@ a:hover {
 }
 
 /*------/ Sidebar /------*/
-
-/* toggle sidebar */
-.sidebar-content {
-  height: 100%;
-  width: 0;
-  position: fixed;
-	background-color:#fff;
-  overflow-x: hidden;
-	transition: 0.3s;
-}
-
-.closebtn {
-  position: absolute;
-  font-size: 36px;
-}
-/* end of toggle sidebar */
-
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;

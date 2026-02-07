@@ -636,7 +636,7 @@ a:hover {
 }
 
 .intro-single {
-  height: 350px;
+  height: 250px;
 }
 
 .intro-single .intro-content {
@@ -1264,3 +1264,8 @@ footer .credits a {
     bottom: 15px;
   }
 }
+
+.carousel-inner {
+	height: 500px
+}
+

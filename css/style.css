@@ -1266,6 +1266,7 @@ footer .credits a {
 }
 
 .carousel-inner {
-	height: 500px
+	height: 500px;
+	width: 75%;
 }
 
